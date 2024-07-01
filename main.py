@@ -37,7 +37,7 @@ try:
     joy = pygame.joystick.Joystick(0)
 
 except pygame.error:
-    print("error!")
+    print("No joystick found.")
     sys.exit()
 
 _scratch = pygame.image.load("cinnamon.png")
